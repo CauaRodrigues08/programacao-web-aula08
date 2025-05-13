@@ -1,0 +1,25 @@
+<%- include('./partials/header') %>
+  <main>
+    <div class="ui segment">
+      <h1>Usuários</h1>
+      <p>Você é um usuário...</p>
+      <h2><%= subheading %></h2>
+      <ul>
+        <li class="ui segment">
+          <a class="item" href="users/signin">
+            Sign in
+          </a>
+          <a class="item" href="users/signup">
+            Sign up
+          </a>
+          <a class="item" href="users/:userid">
+            Usuários
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <%- include('./partials/footer') %>
+  </footer>
